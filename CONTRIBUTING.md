@@ -3,13 +3,14 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd test-addon`
-* `npm install`
+* `cd ember-link`
+* `yarn install`
 
 ## Linting
 
-* `npm run lint`
-* `npm run lint:fix`
+* `yarn lint:hbs`
+* `yarn lint:js`
+* `yarn lint:js --fix`
 
 ## Running tests
 

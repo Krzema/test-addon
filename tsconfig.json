@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "es2017",
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
@@ -13,36 +14,20 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "noEmit": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "baseUrl": ".",
     "module": "es6",
-    "experimentalDecorators": true,
     "paths": {
-      "dummy/tests/*": [
-        "tests/*"
-      ],
-      "dummy/*": [
-        "tests/dummy/app/*",
-        "app/*"
-      ],
-      "test-addon": [
-        "addon"
-      ],
-      "test-addon/*": [
-        "addon/*"
-      ],
-      "test-addon/test-support": [
-        "addon-test-support"
-      ],
-      "test-addon/test-support/*": [
-        "addon-test-support/*"
-      ],
-      "*": [
-        "types/*"
-      ]
+      "dummy/tests/*": ["tests/*"],
+      "dummy/*": ["tests/dummy/app/*", "app/*"],
+      "ember-link": ["addon"],
+      "ember-link/*": ["addon/*"],
+      "ember-link/test-support": ["addon-test-support"],
+      "ember-link/test-support/*": ["addon-test-support/*"],
+      "*": ["types/*"]
     }
   },
   "include": [
