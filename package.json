@@ -28,6 +28,8 @@
     "postpack": "ember ts:clean"
   },
   "dependencies": {
+    "@glimmer/tracking": "^1.0.4",
+    "ember-auto-import": "^1.11.2",
     "ember-cli-babel": "^7.26.3",
     "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-typescript": "^4.2.1"
@@ -37,7 +39,6 @@
     "@ember/test-helpers": "^2.2.5",
     "@embroider/test-setup": "^0.37.0",
     "@glimmer/component": "^1.0.4",
-    "@glimmer/tracking": "^1.0.4",
     "@types/ember-qunit": "^3.4.13",
     "@types/ember-resolver": "^5.0.10",
     "@types/ember__application": "^3.16.2",
@@ -62,7 +63,6 @@
     "@types/rsvp": "^4.0.3",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.11.2",
     "ember-cli": "~3.26.1",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-inject-live-reload": "^2.0.2",
