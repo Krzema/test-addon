@@ -81,6 +81,7 @@
     "node": "10.* || >= 12"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "after": "ember-cli-typescript"
   }
 }
